@@ -8,22 +8,9 @@ The Python code is tracked normally using Git, while the large dataset in the `d
 
 Before cloning the repository, make sure you have Git LFS installed on your system.
 
-**Ubuntu/Debian:**
+**Ubuntu:**
 ```bash
 sudo apt-get install git-lfs
-git lfs install
-```
-
-**macOS (using Homebrew):**
-```bash
-brew install git-lfs
-git lfs install
-```
-
-**Windows:**
-Download and run the installer from the [Git LFS website](https://git-lfs.com/), or install using winget:
-```bash
-winget install GitHub.GitLFS
 git lfs install
 ```
 
@@ -46,4 +33,6 @@ git lfs pull
 
 ## Running the Code
 
-(Add instructions here regarding how to run your `.py` files)
+```bash
+python training_regression.py
+```
