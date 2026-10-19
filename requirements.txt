@@ -1,0 +1,11 @@
+# Direct runtime dependencies, pinned to versions observed in the mol environment.
+torch==2.8.0 # please see https://pytorch.org/get-started/locally/ for installation instructions
+torch-geometric==2.6.1
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+rdkit==2023.9.3
+lifelines==0.30.0
+prettytable==3.16.0
+tqdm==4.67.1

@@ -1,4 +1,14 @@
 __pycache__/
-*.pyc
+*.py[cod]
 results/
+split_method/
+*.log
 .DS_Store
+.vscode/
+.idea/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+docs/
+tests/
